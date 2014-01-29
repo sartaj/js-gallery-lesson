@@ -1,4 +1,4 @@
-Sartaj's lessons for Students
+Web engineering lessons for students
 =======
 
 To see different lessons, switch between branches.
