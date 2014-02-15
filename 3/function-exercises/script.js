@@ -115,31 +115,46 @@ var tellFortune = function(job,location,partner,children) {
  * Exercise 5:  The Temperature Converter
 **/
  
-// Create function with name convertTemp and appropriate parameters
- 
-	// Define string variable that will have that output
+// Create a function called convertTemp:
+// Give it 2 parameters, the first being number, second being inputType. inputType should accept strings 'F' or 'C'
+	
+	// Define the variables used
+
+	// Convert the number from the inputType to the opposite
+	
+	// Return that number
+
+// Create a function called celciusWaterState. This function will tell you if a Celsius temperature is boiling, liquid, or freezing:
+// Give it 1 parameter thats a number
+
+	// Define a variable that will save the string of the conditional below
+
+	// Write a conditional if then statement that saves 'boiling', 'liquid', or 'freezing' depending on what the temperature is.
+	
+	// Return that number
+
+// Create function with name waterTempAndState
+// Give it 2 parameters, the first being number, second being inputType. inputType should accept strings 'F' or 'C'
+	
+    // Define the variables needed. You may need extra variables here for the use case of converting to C
     
-    // return string to pass the tests below
- 
-// Create function with name convertTemp and appropriate parameters
- 
-	// Define string variable that will have that output
-    	
-    // Write a conditional if then statement that returns 'boiling', 'liquid', or 'freezing' depending on what the temperature is.
- 
-    // return string to pass the tests below
- 
-// Create a function called `waterStateAt`
- 
-	// Define string variable that will have that output
+    // If the inputType is 'F', convert the number to 'C' with the convertTemp function above.
     
-    // Save a new variable with "convertTemp"
+    	// Pass this number into the celciusWaterState function to get the state
+    	// Keep the original 'F' tempurature saved too. You can do this by saving it a new variable or running the 'convertTemp' function again to convert it back to F.
+
+    // If the inputType is 'C', pass the number into celiusWaterState function to get state. 
+
+    // return string "It's currently XXX degrees in the XXX standard and water is in a XXX state.'
  
-    // Write a conditional if then statement that returns 'boiling', 'liquid', or 'freezing' depending on what the temperature is.
- 
-    // return string to pass the tests below
- 
- 
-// console.log(waterStatAt(50, C)); // "It's current 50 Degrees in Celcius standard and water is liquid. "
-// console.log(waterStatAt(213, F)); // "It's current 213 Degrees in Farenheit standard and water is boiling. "
-// console.log(waterStatAt(-1, F)); // "It's current -1 Degrees in Farenheit standard and water is liquid. " 
+// console.log(convertTemp(32, 'F')); // 0
+// console.log(convertTemp(100, 'C')); // 212
+
+// console.log(celciusWaterState(0)); // 'freezing'
+// console.log(celciusWaterState(1)); // 'liquid'
+// console.log(celciusWaterState(99.99)); // 'liquid'
+// console.log(celciusWaterState(100)); // 'boiling'
+
+// console.log(waterTempAndState(50, 'C')); // "It's currently 50 degrees in the Celcius standard and water is liquid. "
+// console.log(waterTempAndState(213, 'F')); // "It's currently 213 degrees in the Farenheit standard and water is boiling. "
+// console.log(waterTempAndState(-1, 'F')); // "It's currently -1 degrees in the Farenheit standard and water is liquid. " 
