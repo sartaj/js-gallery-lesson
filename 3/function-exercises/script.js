@@ -54,11 +54,13 @@ var tellFortune = function(job,location,partner,children) {
  * Exercise 2: calculateAge
 **/
  
-// Create function with name tellFortune and appropriate parameters
+// Create function with name calculateAge and appropriate parameters
  
-	// Define string variable that will have that output
+	// Define number variable age and save the age based on the years given, ie 2010-1990 = '20'
+
+	// Define a number variable that will account for month discrepcies, ie Jan 2010 - August 1990 = '19'
     
-    // return string to pass the tests below
+    // return string that says 'You are either XX or YY'
  
 // console.log(calculateAge(1984, 2012)); // You are either 28 or 27 
 // console.log(calculateAge(1988, 2012)); // You are either 24 or 23 
